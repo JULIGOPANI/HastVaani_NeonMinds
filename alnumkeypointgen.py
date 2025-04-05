@@ -44,7 +44,7 @@ def logging_csv(letter, landmark_list, csv_path="numAlpha.csv"):
         writer.writerow([letter] + landmark_list)
 
 # Path to dataset
-dataset_path = r"D:\sem6\6SGP\IndianSignLan\NewTry\finaldataset\num+Alpha"
+dataset_path = ""
 
 # Letters A-Z (folders in dataset)
 alphabet = list(string.ascii_uppercase)
