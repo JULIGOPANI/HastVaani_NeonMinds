@@ -30,12 +30,7 @@ We envision a world where **communication is accessible to everyone**, regardles
 | 🧠 **Quiz Zone** | Tests user knowledge through engaging quizzes with score tracking. |
 | 🎮 **Game Section** | Makes learning signs enjoyable and memorable through interactive games. |
 | 🗣️ **Speech Output** | Converts detected signs into spoken words for real-time communication. |
-| 📈 **Progress Dashboard** | Tracks user learning and quiz scores over time. |
 | 🤖 **Chatbot** | AI-powered bot to answer ISL-related queries and guide new learners. |
-
----
-
-
 
 ---
 
