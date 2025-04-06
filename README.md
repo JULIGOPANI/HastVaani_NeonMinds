@@ -49,3 +49,6 @@ We envision a world where **communication is accessible to everyone**, regardles
    Users can continue learning signs, take quizzes to test retention, and play games to reinforce concepts.
 
 ---
+
+
+link for video:https://drive.google.com/file/d/1xtCZmDps48IObwoc73YHgChNf13F7oSu/view?usp=sharing
