@@ -31,24 +31,47 @@ We envision a world where **communication is accessible to everyone**, regardles
 | 🎮 **Game Section** | Makes learning signs enjoyable and memorable through interactive games. |
 | 🗣️ **Speech Output** | Converts detected signs into spoken words for real-time communication. |
 | 🤖 **Chatbot** | AI-powered bot to answer ISL-related queries and guide new learners. |
+| 🧑‍🏫 **Animated Learning Module** | Converts speech to ISL animations using 3D robots, supporting English, Hindi, and Gujarati. |
+| 🌐 **Multilingual Chatbot with Voice Input** | Supports 7+ languages and allows speech input to guide users across the platform. |
+| 🧠 **Smart Sign-to-Sentence Model** | Alphabet and Word Prediction models powered by deep learning and LLMs to form meaningful sentences from detected signs. |
 
 ---
 
 ## 🎯 How It Works
 
 1. **Sign Detection:**  
-   Users perform signs in front of a webcam. MediaPipe captures hand landmarks.
+   Users perform signs in front of a webcam. MediaPipe captures hand landmarks in real-time.
 
 2. **Model Prediction:**  
-   A trained deep learning model (CNN + LSTM/Transformer) interprets the gesture.
+   A deep learning model (CNN + Transformer/LSTM) classifies the detected gesture into alphabets or words.
 
 3. **Output Translation:**  
-   The recognized sign is converted into text and speech.
+   The recognized signs are converted into text and audio using a speech synthesis engine.
 
-4. **User Engagement:**  
-   Users can continue learning signs, take quizzes to test retention, and play games to reinforce concepts.
+4. **Animated Learning:**  
+   Users can speak a word, which is converted to text and then visualized as an ISL animation by a 3D robot avatar.
+
+5. **Multilingual Chatbot Assistance:**  
+   A smart, voice-enabled chatbot available in 7+ languages helps users navigate the app and understand ISL.
+
+6. **Word & Alphabet Prediction with LLM:**  
+   Models predict signs and generate coherent sentences using large language models to improve communication context.
+
+7. **User Engagement:**  
+   The platform offers daily practice words, quizzes, and games to make ISL learning fun and effective.
 
 ---
+
+## 🧰 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, JavaScript  
+- **Backend:** Flask / Node.js  
+- **AI Models:** TensorFlow / PyTorch, CNN + Transformer / LSTM  
+- **Real-Time Detection:** MediaPipe for hand & pose tracking  
+- **3D Animation:** Three.js + Blender for robot rendering  
+- **Chatbot:** Python NLP + Google Translate API + Speech Recognition  
+- **Hosting:** Firebase / Google Cloud  
+- **LLM Support:** GPT-based Sentence Prediction
 
 
 link for video:https://drive.google.com/file/d/1xtCZmDps48IObwoc73YHgChNf13F7oSu/view?usp=sharing
