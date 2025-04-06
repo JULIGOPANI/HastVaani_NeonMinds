@@ -1,0 +1,34 @@
+animationstyle.css
+#animation-container {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#animation-container canvas {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.animation-viewer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Align to top */
+  background: transparent;
+}
+
+.alphabet-grid-container {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  #animation-container {
+    height: 300px;
+  }
+}
